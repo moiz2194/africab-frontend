@@ -1,6 +1,6 @@
 const nextConfig = {
     env: {
-        API_KEY: 'AIzaSyC1rifRxxoLX1oAv3S-qjTVW4CICa59zo0',
+        API_KEY: 'AIzaSyAaf0J6LoKEJKaW9vqqNieZXgngxx1kpOY',
         BACKEND: 'https://backend-african.onrender.com',
       }
 }
