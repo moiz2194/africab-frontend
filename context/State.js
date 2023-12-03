@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import context from './context.js';
 import { useSearchParams } from 'react-router-dom';
-const host = "https://africabackend.onrender.com"
+const host = process.env.BACKEND
 
 const State = (props) => {
   const [user, setuser] = React.useState()
