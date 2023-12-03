@@ -7,7 +7,7 @@ import Loading from '@/components/Loading.jsx'
 import InfiniteScroll from "react-infinite-scroll-component"
 const { io } = require("socket.io-client");
 const Chat = () => {
-  const host = process.env.BACKEND
+  const host = "https://backend-african.onrender.com"
   const { chatId } = useParams()
   const a = useContext(context);
   const getmsgs = a.getallmessages
